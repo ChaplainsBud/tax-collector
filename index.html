@@ -10,20 +10,21 @@
   <body>
     <!-- 1.background; 2.tax calculator; 3.input: gross salary; 4.btn: calculate -->
     <!-- padding for both input and button -->
-    <main>
-      <div class="container">
-        <div class="heading">
-          <h1>Tax Collector</h1>
-        </div>
+
+    <div class="container">
+      <div class="heading">
+        <h1>Tax Collector</h1>
+      </div>
+      <form action="#">
         <div class="btn">
           <!-- pattern="not a letter" -->
-          <input type="text" placeholder="Gross salary" size="30" required />
+          <input type="number" placeholder="Gross salary" required />
         </div>
         <div class="btn2">
           <button>CALCULATE</button>
         </div>
-      </div>
-      <script src="index.js"></script>
-    </main>
+      </form>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>

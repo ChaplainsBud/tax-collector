@@ -24,6 +24,10 @@ input {
   display: block;
 }
 
+input {
+  width: 15vw;
+}
+
 .btn {
   display: flex;
   justify-content: center;
